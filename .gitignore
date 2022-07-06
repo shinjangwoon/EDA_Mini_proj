@@ -132,3 +132,6 @@ dmypy.json
 *.json
 *.xml
 *.iml
+*.bak
+*.png
+*.jpg

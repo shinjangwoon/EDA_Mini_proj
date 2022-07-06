@@ -1,0 +1,15 @@
+<p id="demo" onclick="changeCSS()">hello world</p>
+
+<script>
+alert("demo tag의 텍스트를 바꿀겁니다.")
+document.getElementById("demo").innerHTML = "바꿔버렸음..";
+</script>
+
+<script>
+function changeCSS() {
+	alert("CSS도 바꿔버렸음")
+	document.getElementById("demo").style.fontSize = "25px";
+	document.getElementById("demo").style.color = "red";
+	document.getElementById("demo").style.backgroundColor = "yellow";
+}
+</script>
