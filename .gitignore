@@ -137,3 +137,4 @@ dmypy.json
 *.jpg
 *.hdf5
 *.zip
+*.csv
